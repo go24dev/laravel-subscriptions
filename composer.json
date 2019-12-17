@@ -36,22 +36,32 @@
             "homepage": "https://github.com/rinvex/laravel-subscriptions/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/go24dev/laravel-cacheable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/go24dev/laravel-support"
+        }
+    ],
     "require": {
-        "php": "^7.2.0",
+        "php": "^7.1.3",
         "illuminate/console": "~5.8.0",
         "illuminate/database": "~5.8.0",
         "illuminate/support": "~5.8.0",
-        "rinvex/laravel-cacheable": "^2.1.0",
-        "rinvex/laravel-support": "^2.1.0",
-        "spatie/eloquent-sortable": "^3.6.0",
+        "rinvex/laravel-cacheable": "dev-downgradephp",
+        "rinvex/laravel-support": "dev-downgradephp",
+        "spatie/eloquent-sortable": "^3.4.4",
         "spatie/laravel-sluggable": "^2.1.0",
-        "spatie/laravel-translatable": "^4.1.0",
+        "spatie/laravel-translatable": "^4.0.0",
         "watson/validating": "^3.2.0"
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.26.0",
         "illuminate/container": "~5.8.0",
-        "phpunit/phpunit": "^8.1.0"
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "classmap": [
